@@ -1,0 +1,61 @@
+.a{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background-color:yellow;
+    animation: a 4s infinite;
+    left:500px;
+}
+.b{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top:0px;
+ 
+    background-color: blue;
+    animation: b 5s infinite;
+}
+@keyframes a{
+    0%{
+        top:0;
+        left:0;
+
+    }
+25%{
+    top:0px;
+    left:500px;
+}
+50%{
+    top:0px;
+    left: 0px;
+}
+75%{
+    top:500px;
+    left:0px;
+}
+100%{
+    top:0px;
+    left: 0px;
+}
+}
+@keyframes b{
+    0%{
+        top:205px;
+        left: 0px;
+    }
+    25%{
+        top: 500px;
+        left: 0px;
+    }
+    75%{
+        top:500px;
+        left: 500px;
+    }
+    80%{
+        top:0;
+        left: 500PX;
+    }100%{
+        top:0;
+        left: 0;
+    }
+}
